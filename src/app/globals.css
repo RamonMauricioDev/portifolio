@@ -1,5 +1,7 @@
 :root {
-  
+  --primary-color: #9E00FF;
+  --margin-inline: 5vw;
+  margin-inline: var(--margin-inline);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -7,6 +9,8 @@
 
   }
 }
+
+
 
 * {
   
