@@ -1,36 +1,6 @@
 :root {
   --primary-color: #9E00FF;
   --margin-inline: 5vw;
+  --header-height: 3em;
   margin-inline: var(--margin-inline);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-
-  }
-}
-
-
-
-* {
-  
-}
-
-html,
-body {
-
-}
-
-body {
-
-}
-
-a {
-
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    
-  }
 }

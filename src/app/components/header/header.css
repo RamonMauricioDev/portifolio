@@ -2,12 +2,18 @@
     display: flex;
     justify-content: end;
     position: fixed;
+    top: 0px;
+    align-items: center;
     width: calc(100% - var(--margin-inline) * 2);
+    height: var(--header-height);
+    background-color: white;
 }
 
 .header .header-button{
     padding-inline: 1.2em;
     cursor: pointer;
+    opacity: 0.6;
+    font-size: 0.75rem;
 }
 
 .header-button:hover{
