@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Header></Header>
-      <section className='webpage'></section>
+      <div className='webpage'></div>
       <LandingPage></LandingPage>
       <Arsenal></Arsenal>
       <Contact></Contact>

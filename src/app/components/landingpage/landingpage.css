@@ -1,0 +1,22 @@
+.landingpage{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.front-end-developer{
+    white-space: nowrap;
+    display: block;
+    height: fit-content;
+    transform: rotate(-90deg);
+    line-height: calc(var(--h2-size) / 2);
+    position: relative;
+    bottom: 8px;
+}
+
+.hello div{
+    display: block;
+    line-height: calc(var(--h1-size) / 2);
+}

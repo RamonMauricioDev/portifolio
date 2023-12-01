@@ -2,5 +2,26 @@
   --primary-color: #9E00FF;
   --margin-inline: 5vw;
   --header-height: 3em;
+  --h1-size: clamp(36px, 8vw, 96px);
+  --h2-size: clamp(12px, 3vw, 36px);
   margin-inline: var(--margin-inline);
+}
+
+h1{
+  font-size: var(--h1-size);
+}
+
+h2{
+  font-size: var(--h2-size);
+  font-weight: 100;
+}
+
+.primary-color{
+  color: var(--primary-color);
+}
+
+.code-font{
+  color: pink;
+  cursor: default;
+  user-select: none;
 }
