@@ -20,6 +20,11 @@ h2{
   color: var(--primary-color);
 }
 
+.smallbr{
+  display: block;
+  margin-bottom: 1.4em;
+}
+
 .code-font{
   color: pink;
   cursor: default;

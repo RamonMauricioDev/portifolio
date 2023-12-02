@@ -1,0 +1,22 @@
+.arsenal-flex{
+    display: flex;
+}
+
+.arsenal-flex p {
+    width: 40%;
+}
+.arsenal-flex div{
+    width: 60%;
+}
+
+.icon-grid{
+    margin-block: 16px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 32px;
+    justify-content: center;
+    justify-items: center;
+}
