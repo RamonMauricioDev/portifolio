@@ -5,8 +5,8 @@ const LandingPage = () =>{
     return(
         <div className="landingpage">
             <div className="front-end-developer">
-                <h2>Front end developer</h2>
-                <h2>Designer</h2>
+                <h2 className="roles">Front end developer</h2>
+                <h2 className="roles">Designer</h2>
             </div>
             <div className="hello">
                 <div>
