@@ -2,9 +2,15 @@
   --primary-color: #9E00FF;
   --margin-inline: 5vw;
   --header-height: 3em;
-  --h1-size: clamp(36px, 8vw, 96px);
-  --h2-size: clamp(12px, 3vw, 36px);
+  --h1-size: clamp(48px, 8vw, 96px);
+  --h2-size: clamp(32px, 3vw, 36px);
+  --h5-size: clamp(12px, 1vw, 16px);
   margin-inline: var(--margin-inline);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('/Inter.tff');
 }
 
 h1{
@@ -16,6 +22,10 @@ h2{
   font-weight: 100;
 }
 
+h5{
+  font-size: var(--h5-size);
+}
+
 .primary-color{
   color: var(--primary-color);
 }
@@ -23,6 +33,11 @@ h2{
 .smallbr{
   display: block;
   margin-bottom: 1.4em;
+}
+
+.iconbr{
+  display: block;
+  margin-bottom: clamp(24px, 4vw, 42px);
 }
 
 .code-font{

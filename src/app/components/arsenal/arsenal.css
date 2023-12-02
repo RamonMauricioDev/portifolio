@@ -3,10 +3,15 @@
 }
 
 .arsenal-flex p {
-    width: 40%;
-}
-.arsenal-flex div{
     width: 60%;
+}
+
+.arsenal-list{
+    gap: 200px;
+}
+
+.arsenal-flex div{
+    width: 40%;
 }
 
 .icon-grid{
@@ -14,9 +19,36 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 32px;
     justify-content: center;
     justify-items: center;
+}
+
+@media screen and (max-width: 800px){
+    .arsenal-flex{
+        flex-direction: column;
+    }
+
+    .arsenal-title{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .arsenal-flex p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .arsenal-flex div{
+        width: 100%;
+    }
+
+    .icon-grid{
+        display: flex;
+        flex-flow: wrap;
+        gap: 6px;
+    }
 }
