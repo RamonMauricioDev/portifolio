@@ -7,6 +7,7 @@
     width: calc(100% - var(--margin-inline) * 2);
     height: var(--header-height);
     background-color: white;
+    z-index: 1;
 }
 
 .header .header-button{
