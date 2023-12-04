@@ -8,8 +8,8 @@ export default function Home() {
       <div className='webpage'></div>
       <LandingPage></LandingPage>
       <Arsenal></Arsenal>
-      <Contact></Contact>
       <Projects></Projects>
+      <Contact></Contact>
     </main>
   )
 }

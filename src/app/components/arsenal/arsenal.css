@@ -8,6 +8,7 @@
 
 .arsenal-list{
     gap: 200px;
+    width: 100% !important;
 }
 
 .arsenal-flex div{
@@ -24,6 +25,7 @@
     grid-row-gap: 32px;
     justify-content: center;
     justify-items: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 800px){
