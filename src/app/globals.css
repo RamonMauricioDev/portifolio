@@ -4,7 +4,7 @@
   --header-height: 3em;
   --h1-size: clamp(48px, 8vw, 96px);
   --h2-size: clamp(32px, 3vw, 36px);
-  --h5-size: clamp(16px, 2vw, 20px);
+  --h5-size: clamp(14px, 2vw, 18px);
   margin-inline: var(--margin-inline);
 }
 
