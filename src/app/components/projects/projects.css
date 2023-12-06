@@ -1,0 +1,25 @@
+.want-to-see-more{
+    display: flex;
+    justify-content: center;
+    gap: 0.25em;
+}
+
+.project-flex{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .project-title{
+        display: flex;
+        justify-content: center;
+    }
+
+    .want-to-see-more{
+        display: block;
+    }
+
+    .want-to-see-more h5{
+        text-align: center;
+    }
+}
