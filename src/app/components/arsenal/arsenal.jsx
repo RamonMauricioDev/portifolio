@@ -6,7 +6,7 @@ const IconList = ["/css.png", "/figma.png", "/firebase.png", "/github.png", "/ht
 "/next-js.png", "/reactjs.png", "/webpack.png"]
 
 const ArsenalList = ["Programming Languages: Javascript.", 
-"Frameworks: React JS", "Tools: Figma, Firebase, Git, Webpack.", "The Basic: HTML, CSS."]
+"Frameworks: React JS, NextJS.", "Tools: Figma, Firebase, Git, Webpack.", "The Basic: HTML, CSS."]
 
 const IconStyle = {
     width: "clamp(32px, 5vw, 64px)",
@@ -18,16 +18,16 @@ const Arsenal = () =>{
         <div className="arsenal">
             <h2 className="arsenal-title">Arsenal</h2>
             <div className="arsenal-flex">
-                <p>
+                <span className="arsenal-span">
                     {ArsenalList.map((arsenal) => 
                     <div className="arsenal-list" key={arsenal.toString()}>
                         <span className="iconbr" />
                         <h5>{arsenal}</h5>
                     </div>)}
-                </p>
+                </span>
                 <div className="icon-grid">
                 {IconList.map((icon) =>
-                    <Image src={icon} key={icon.toString()} width={64} height={64} style={IconStyle} quality={100}/>)}
+                    <Image src={icon} key={icon.toString()} width={64} height={64} style={IconStyle} quality={100} alt={icon.toString()}/>)}
                 </div>
             </div>
         </div>

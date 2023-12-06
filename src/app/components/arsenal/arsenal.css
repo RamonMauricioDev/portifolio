@@ -2,7 +2,7 @@
     display: flex;
 }
 
-.arsenal-flex p {
+.arsenal-flex span {
     width: 60%;
 }
 
@@ -29,6 +29,11 @@
 }
 
 @media screen and (max-width: 800px){
+    .arsenal-span{
+        width: 100% !important;
+        text-align: center;
+    }
+
     .arsenal-flex{
         flex-direction: column;
     }
