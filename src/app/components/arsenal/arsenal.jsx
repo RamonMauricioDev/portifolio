@@ -2,11 +2,11 @@ import React from "react";
 import Image from 'next/image'
 import './arsenal.css';
 
-const IconList = ["/css.png", "/figma.png", "/firebase.png", "/github.png", "/html-5.png", "/jest.png", "/js.png", 
-"/next-js.png", "/reactjs.png", "/webpack.png"]
+const IconList = ["/reactjs.png", "/js.png",
+"/next-js.png", "/firebase.png", "/html-5.png", "/css.png", "/github.png", "/jest.png", "/webpack.png", "/figma.png"]
 
 const ArsenalList = ["Programming Languages: Javascript.", 
-"Frameworks: React JS, NextJS.", "Tools: Figma, Firebase, Git, Webpack.", "The Basic: HTML, CSS."]
+"Frameworks: React JS, NextJS, Jest.", "Tools: Figma, Firebase, Git, Webpack.", "The Basic: HTML, CSS."]
 
 const IconStyle = {
     width: "clamp(32px, 5vw, 64px)",
@@ -15,7 +15,7 @@ const IconStyle = {
 
 const Arsenal = () =>{
     return(
-        <div className="arsenal">
+        <div id="arsenal" className="arsenal">
             <h2 className="arsenal-title">Arsenal</h2>
             <div className="arsenal-flex">
                 <span className="arsenal-span">
