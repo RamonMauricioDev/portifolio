@@ -7,11 +7,14 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Header></Header>
-      <div className='webpage'></div>
-      <LandingPage></LandingPage>
-      <Arsenal></Arsenal>
-      <Projects></Projects>
-      <Contact></Contact>
+      <div className='webpage'>
+        <LandingPage id="home"></LandingPage>
+        <div className='webpage-div'>
+          <Arsenal></Arsenal>
+          <Projects></Projects>
+          <Contact></Contact>
+        </div>
+      </div>
     </main>
   )
 }
