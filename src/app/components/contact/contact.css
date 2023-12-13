@@ -15,7 +15,7 @@
 }
 
 .contact-input{
-    width: clamp(240px, 60vw, 720px);
+    width: clamp(240px, 60vw, 540px);
     height: var(--placeholder-size);
     padding-block: 8px;
     padding-inline: 16px;
@@ -29,6 +29,7 @@
 
 .contact-input::placeholder{
     font-size: var(--placeholder-size);
+    user-select: none;
 }
 
 .big-input{
@@ -37,13 +38,14 @@
 }
 
 .contact-button{
-    font-size: 36px;
-    width: calc(clamp(240px, 60vw, 720px) + var(--placeholder-size) * 2);
-    height: 64px;
+    font-size: 28px;
+    width: calc(clamp(240px, 60vw, 540px) + var(--placeholder-size) * 2);
+    height: 48px;
     border: none;
     background-color: var(--primary-color);
     color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .contact-links{

@@ -8,6 +8,19 @@
   margin-inline: var(--margin-inline);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+img{
+  user-select: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
 @font-face {
   font-family: Inter;
   src: url('/Inter.tff');

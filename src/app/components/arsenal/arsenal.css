@@ -1,5 +1,6 @@
 .arsenal-flex{
     display: flex;
+    flex-direction: column;
 }
 
 .arsenal-flex span {
@@ -11,51 +12,32 @@
     width: 100% !important;
 }
 
+.arsenal-title{
+    text-align: center;
+    
+}
+
 .arsenal-flex div{
-    width: 40%;
+    width: 100%;
 }
 
 .icon-grid{
     margin-block: 16px;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 32px;
+    display: flex;
+    flex-flow: wrap;
+    gap: 6px;
     justify-content: center;
     justify-items: center;
     align-items: center;
 }
 
-@media screen and (max-width: 800px){
-    .arsenal-span{
-        width: 100% !important;
-        text-align: center;
-    }
+.arsenal-span{
+    width: 100% !important;
+    text-align: center;
+}
 
-    .arsenal-flex{
-        flex-direction: column;
-    }
-
-    .arsenal-title{
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-
-    .arsenal-flex p {
-        width: 100%;
-        text-align: center;
-    }
-
-    .arsenal-flex div{
-        width: 100%;
-    }
-
-    .icon-grid{
-        display: flex;
-        flex-flow: wrap;
-        gap: 6px;
-    }
+.arsenal-flex p {
+    width: 100%;
+    text-align: center;
 }

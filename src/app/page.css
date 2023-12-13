@@ -5,3 +5,9 @@ main{
 .webpage{
     padding-top: var(--header-height);
 }
+
+.webpage-div{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}

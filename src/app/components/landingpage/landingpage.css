@@ -20,7 +20,17 @@
     bottom: 8px;
 }
 
-.hello div{
-    display: block;
-    line-height: calc(var(--h1-size) / 2);
+.hello {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+}
+
+.hello h1{
+    margin: 0;
+}
+
+.hello--letters{
+    display: flex;
 }

@@ -9,12 +9,11 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 800px) {
-    .project-title{
-        display: flex;
-        justify-content: center;
-    }
+.project-title{
+    text-align: center;
+}
 
+@media screen and (max-width: 800px) {
     .want-to-see-more{
         display: block;
     }
