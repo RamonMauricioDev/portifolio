@@ -30,17 +30,17 @@ const Projects = () =>{
     console.log(projectList)
 
     return(
-        <div>
+        <div id="projects">
             <h2 className="project-title">Personal Projects</h2>
             <div className="want-to-see-more">
                 <h5>Here are a few of my personal projects. Want to see more ?</h5>
-                <h5 className="primary-color">Email me.</h5>
+                <h5><a href="#contact" className="primary-color">Email me.</a></h5>
             </div>
             <div className="project-flex">
             {projectList.map((project) =>
-                <div style={{borderRadius: '15px', overflow: 'hidden'}}>
+                <div key = {project.Image} style={{borderRadius: '15px', overflow: 'hidden'}}>
                     <a href={project.GithubProject} target="_blank">
-                    <Image loader={() => project.Image} src = {project.Image}  key = {project.Image.toString()} width={600} height={300} quality={100} style={projectStyle}/>
+                    <Image loader={() => project.Image} src = {project.Image} alt="Image" width={600} height={300} quality={100} style={projectStyle}/>
                     </a>
                 </div>
             )}
