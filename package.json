@@ -2,6 +2,7 @@
   "name": "portifolio",
   "version": "0.1.0",
   "private": true,
+  "exports": "next export",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
