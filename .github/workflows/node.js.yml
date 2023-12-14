@@ -1,6 +1,6 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
-#
+
 name: GitHub Pages deploy
 
 on:
@@ -29,5 +29,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: public # The branch the action will deploy to
+          BRANCH: main # The branch the action will deploy to
           FOLDER: out # The folder the action will deploy to
